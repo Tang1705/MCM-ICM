@@ -1,0 +1,74 @@
+\begin{algorithm}
+        \caption{GF(4) 3D reconstruction}
+        \LinesNumbered
+        \KwIn{$\mathcal{X}\in\mathbb{R}^{l_1\times l_2\times l_3},K_c,K_p,R,T$}
+        \KwOut{$Coord_{i,j}$}
+        \textbf{Initialize} all $GF^{(i,j)}s$
+
+        \For{ each $X_{i_j}^k(N_0\le i\le N_1,M_0\le j\le M_1,k \in (r,g,b))$ }
+        {
+        $d=\max(|
+        \sum_{i=-\epsilon}^\epsilon I(x^k +i,y^k)- \sum_{j=-\epsilon}^\epsilon I(x^k,y^k+j)
+        |)$\;
+        \If{$d > t$}
+        {
+        $C_{ij}=-1$
+        }\Else{
+        $Candidate_{ij}=-3$
+        }
+        }
+
+        \For{ each $Candidate_{i_j}^k(N_0\le i\le N_1,M_0\le j\le M_1)$ }
+        {
+        \If {$Candidate_{ij}==-1$}
+        {
+        $\rho_C=\frac{n\sum_{i=1}^nM_{Ci}M_{Ci'}-\sum_{i=1}^nM_{Ci}\sum_{i=1}^nM_{Ci'}}{\sqrt{n\sum_{i=1}^nM_{Ci}^2-(\sum_{i=1}^nM_{Ci})^2}\sqrt{n\sum_{i=1}^nM_{Ci}'^2-(\sum_{i=1}^nM_{Ci'})^2}}$\;
+        \If{$\rho_C>t$}
+        {
+        $GridPoint_{ij}=-1$
+        }
+        }
+        }
+
+        \For{ each $GridPoint_{i_j}^k(N_0\le i\le N_1,M_0\le j\le M_1)$ }
+        {
+        $FeaturePoint_{i,j}=BFS(GridPoint_{i,j},FLAG)$\;
+        \If{$FeaturePoint_{i,j}==-1$}{
+        \If{$\sum_{i=-\epsilon}^\epsilon I(x^k +i,y^k)- \sum_{j=-\epsilon}^\epsilon I(x^k,y^k+j)>0$}
+        {
+        $FeaturePoint_{i,j}=-1$
+        }\Else{
+        $FeaturePoint_{i,j}=-2$
+        }
+        }
+        }
+
+        \For{ each $FeaturePoint_{i_j}^k(N_0\le i\le N_1,M_0\le j\le M_1)$ }
+        {
+        \If{$FeaturePoint_{i,j}\neq-1 \; and \; FeaturePoint_{i,j}\neq-2 $}{
+        $s=\sqrt{1-\frac{rg+gb+rb}{r^2+g^2+b^2}}$\;
+        $h_r=\frac{2r-g-b}{2\sqrt{(r-g)^2}+(r-b)(g-b)}$\;
+        $h_g=\frac{2g-r-b}{2\sqrt{(g-r)^2}+(g-b)(r-b)}$\;
+        $h_b=\frac{2b-g-r}{2\sqrt{(b-g)^2}+(b-r)(g-r)}$\;
+        $k=s-\sqrt{1-\max(h_r,h_g,h_b)}$
+        \If{$k<0.2$}
+        {
+        $FeaturePoint_{i,j}=0$
+        }\Else
+        {
+        $FeaturePoint_{i,j}=\max(r,g,b)$
+        }
+        }
+        }
+
+        \For{ each $FeaturePoint_{i_j}^k(N_0\le i\le N_1,M_0\le j\le M_1)$ }
+        {
+        \If{$FeaturePoint_{i,j}==-1 \; or \; FeaturePoint_{i,j}==-2$}
+        {
+        $(u_1m_{31}^1-m_{11}^1)X_W+(u_1m_{32}^1-m_{12}^1)Y_W+(u_1m_{33}^1-m_{13}^1)Z_W=m_{14}^1-u_1m_{34}^1$\;
+        $(v_1m_{31}^1-m_{21}^1)X_W+(v_1m_{32}^1-m_{22}^1)Y_W+(v_1m_{33}^1-m_{23}^1)Z_W=m_{24}^1-v_1m_{34}^1$\;
+        $(u_1m_{31}^2-m_{11}^2)X_W+(u_1m_{32}^2-m_{12}^2)Y_W+(u_1m_{33}^2-m_{13}^2)Z_W=m_{14}^2-u_1m_{34}^2$\;
+        $Coord_{i,j}=(X_W,Y_W,Z_W)$
+        }
+        }
+\end{algorithm}

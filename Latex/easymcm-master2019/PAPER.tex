@@ -1,0 +1,188 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 	   美赛模板，正文部分		 
+%          PAPER.tex         
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[12pt]{article}
+
+% 请在此填写控制号、题号和标题，年份不需要填（自动以当前电脑时间年份为准）
+\usepackage[2012050]{easymcm}\problem{A}   
+\usepackage{palatino} % 这个是COMAP官方杂志采用的字体，如不需要可注释掉，以使用默认字体
+
+% usepackage
+% 参考文献引用
+\usepackage{cite}
+% 强调
+\usepackage{ulem}
+% 首字下沉
+\usepackage{lettrine}
+% 单元格内容过长
+\usepackage{makecell}
+%并排图表
+\usepackage{caption,subcaption}
+% 算法排版
+\let\algorithm\relax
+\let\endalgorithm\relax
+\usepackage[linesnumbered,ruled,vlined]{algorithm2e}%[ruled,vlined]{
+\usepackage{algpseudocode}
+\usepackage{amsmath}
+\renewcommand{\algorithmicrequire}{\textbf{Input:}}
+\renewcommand{\algorithmicensure}{\textbf{Output:}}
+
+% listing格式
+\lstset{
+	numbers=left	
+}
+
+\title{An MCM Paper Made by Team 2012050}  % 标题
+
+\bibliographystyle{unsrt} %bibtex
+
+% 如您参加的是ICM（即选择了D/E/F题），请使用以下的命令修改Summary Sheet题头
+% \renewcommand{\contest}{Interdisciplinary Contest in Modeling (ICM) Summary Sheet}
+
+% 正文开始
+\begin{document}
+\input{ABSTRACT.tex}		% 摘要请到ABSTRACT.tex中填写
+
+\section{Introduction}
+\subsection{Problem Background}
+Here is the problem background\cite{Song2010Determining} ...
+
+Two major problems are discussed in this paper, which are:
+\begin{itemize}
+    \item Doing the first thing.
+    \item Doing the second thing.
+\end{itemize}
+
+\subsection{Literature Review}
+A literatrue say something about this problem ...
+
+\begin{figure}[h]
+	\begin{subfigure}[b]{.5\textwidth}
+		\centering
+		\includegraphics{logo.png}
+			\caption{ElegantLaTeX Logo}
+	\end{subfigure}
+	\begin{subfigure}[b]{.5\textwidth}
+	\centering
+	\includegraphics{logo.png}
+		\caption{ElegantLaTeX Logo}
+	\end{subfigure}	
+	\caption{ElegantLaTeX Logo}
+	\label{fig:logo}
+\end{figure}
+Figure \ref{fig:logo} is the logo of the Tex. 
+
+\begin{figure}[!htbp]
+	\centering
+	\includegraphics{logo}
+	\caption{logo}
+	\label{cap}
+\end{figure}
+
+\subsection{Our work}
+We do such things\cite{LinA} ...
+
+\begin{enumerate}[\bfseries 1.]
+    \item We do ...
+    \item We do ...
+    \item We do ...
+\end{enumerate}
+
+\section{Preparation of the Models}
+\subsection{Assumptions}
+
+\subsection{Notations}
+The primary notations used in this paper are listed in \textbf{Table \ref{tb:notation}}.
+\begin{table}[!htbp]
+\begin{center}
+\caption{Notations}
+\begin{tabular}{clc}
+	\toprule
+%	\multicolumn{3}{c}{test}\\
+%	\midrule
+	\multicolumn{1}{m{3cm}}{\centering Symbol}
+	&\multicolumn{1}{m{8cm}}{\centering Definition}
+	&\multicolumn{1}{m{3cm}}{\centering Unit}\\
+	\midrule
+	$A$&the first one&cm\\
+	$b$&the second one&cm\\
+	$\alpha$ &the last one&cm\\
+	\bottomrule
+\end{tabular}\label{tb:notation}
+\end{center}
+\end{table}
+
+\section{The Models}
+\subsection{Model 1}
+\subsubsection{Detail 1 about Model 1}
+\begin{equation}
+    e^{i\theta}=\cos\theta+i\sin\theta.
+\end{equation}
+\begin{equation}
+	\iiint\limits_D \mathrm{d}f=\max\nolimits_D g
+\end{equation}
+
+
+\input{Alogrithm.tex}
+
+\section{Strengths and Weaknesses}
+\subsection{Strengths}
+\begin{itemize}
+    \item First one...
+    \item Second one ...
+\end{itemize}
+
+\subsection{Weaknesses}
+\begin{itemize}
+    \item Only one ...
+ \end{itemize}
+
+\bibliography{math}
+
+% ==============以下为附录内容，如您的论文中不需要程序附录请自行删除====================
+\clearpage
+\begin{subappendices}						% 附录环境
+\section*{Apendix: The source codes}		% 附录标题可以自行修改
+\addcontentsline{toc}{section}{Appendix}  	% 将附录内容加入到目录中
+
+This MATLAB program is used to calculate the value of variable $a$.
+\begin{lstlisting}[language=Matlab, caption=\texttt{temp.m}]
+a = 0;
+for i = 1:5
+	a = a + 1;
+end
+\end{lstlisting}
+
+This LINGO program is used to search the optimize solution of 0-1 problem.
+\begin{lstlisting}[language=Lingo, caption=\texttt{temp.lg4}]
+model:
+sets:
+WP/1..12/: M, W, X;
+endsets
+data:
+M = 2 5 18 3 2 5 10 4 11 7 14 6;
+W = 5 10 13 4 3 11 13 10 8 16 7 4;
+enddata
+max = @sum(WP:W*X);
+@sum(WP: M * X)<=46;
+@for(WP: @bin(X));
+end
+\end{lstlisting}
+
+\begin{lstlisting}[language=Python, caption=\texttt{temp.py}]
+employees = []
+for id in employee_ids:
+	employee = fetch_employee(id)
+if employee:
+	employees.append(employee)
+\end{lstlisting}
+
+\end{subappendices}
+
+% =================================================================================
+
+
+
+\end{document}

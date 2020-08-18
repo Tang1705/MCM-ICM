@@ -1,0 +1,32 @@
+\contentsline {section}{\numberline {1}Introduction}{2}{section.0.1}% 
+\contentsline {subsection}{\numberline {1.1}Background}{2}{subsection.0.1.1}% 
+\contentsline {subsection}{\numberline {1.2}Problem Restatement and Our Work}{2}{subsection.0.1.2}% 
+\contentsline {section}{\numberline {2}Assumption and Data Exploration}{3}{section.0.2}% 
+\contentsline {subsection}{\numberline {2.1}Assumption}{3}{subsection.0.2.1}% 
+\contentsline {subsection}{\numberline {2.2}Data Quality Report}{3}{subsection.0.2.2}% 
+\contentsline {subsection}{\numberline {2.3}Review Preprocessing}{3}{subsection.0.2.3}% 
+\contentsline {subsection}{\numberline {2.4}Preliminary Insights Into the Data}{4}{subsection.0.2.4}% 
+\contentsline {section}{\numberline {3}PRMP Model}{4}{section.0.3}% 
+\contentsline {subsection}{\numberline {3.1}Review}{5}{subsection.0.3.1}% 
+\contentsline {subsubsection}{\numberline {3.1.1}Sentiment}{5}{subsubsection.0.3.1.1}% 
+\contentsline {subsubsection}{\numberline {3.1.2}Readability and Length}{6}{subsubsection.0.3.1.2}% 
+\contentsline {subsection}{\numberline {3.2}Star Rating}{6}{subsection.0.3.2}% 
+\contentsline {subsection}{\numberline {3.3}Helpfulness}{6}{subsection.0.3.3}% 
+\contentsline {subsection}{\numberline {3.4}PRMP Model and Result}{7}{subsection.0.3.4}% 
+\contentsline {section}{\numberline {4}Comprehensive Product Evaluation Model}{8}{section.0.4}% 
+\contentsline {subsection}{\numberline {4.1}Product Measurement}{8}{subsection.0.4.1}% 
+\contentsline {subsubsection}{\numberline {4.1.1}Entropy Weight Method to Obtain $\alpha _1$ and $\alpha _2$}{9}{subsubsection.0.4.1.1}% 
+\contentsline {subsubsection}{\numberline {4.1.2}Defining $\omega _1$, $\omega _2$, $\omega _3$}{9}{subsubsection.0.4.1.2}% 
+\contentsline {subsubsection}{\numberline {4.1.3}Scaling HVR}{10}{subsubsection.0.4.1.3}% 
+\contentsline {subsection}{\numberline {4.2}Reputation Trend Model using ARIMA}{10}{subsection.0.4.2}% 
+\contentsline {subsection}{\numberline {4.3}Non-linear Programming Model}{12}{subsection.0.4.3}% 
+\contentsline {subsection}{\numberline {4.4}Customer Decision Model}{13}{subsection.0.4.4}% 
+\contentsline {subsection}{\numberline {4.5}Correlation Between Emotional Descriptors and Star Rating}{13}{subsection.0.4.5}% 
+\contentsline {section}{\numberline {5}Sensitivity Analysis}{15}{section.0.5}% 
+\contentsline {section}{\numberline {6}Strengths and Weaknesses}{15}{section.0.6}% 
+\contentsline {subsection}{\numberline {6.1}Strengths}{15}{subsection.0.6.1}% 
+\contentsline {subsection}{\numberline {6.2}Weaknesses}{16}{subsection.0.6.2}% 
+\contentsline {section}{Letter}{17}{section.0.7}% 
+\contentsline {section}{References}{17}{section.1.7}% 
+\contentsline {section}{Appendices}{19}{section*.26}% 
+\contentsfinish 

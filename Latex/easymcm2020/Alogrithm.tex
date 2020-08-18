@@ -1,0 +1,25 @@
+\begin{algorithm}[!htbp]
+        \caption{PSO in NLP}
+        \LinesNumbered
+        \KwIn{$f(\mathcal{P}),\mathcal{P}\in\mathbb{D}^{star\;rating\times review\;score\times helpfulness \times auth \times \alpha},it\_max,,c_1,c_2,v$}
+        \KwOut{$Combination(star\;rating,review \;score,helpfulness,auth,\alpha)$}
+        \textbf{Initialize} p=Particle\_Initialiazation()\\
+        \For{ $i=1$ to $it\_max$ }
+        {
+        \For{each particle p in $\mathcal{P}$}
+        {
+        	$f_p=f(p)$
+        }
+        \If{$f_p$ is better thatf($pBest$)}
+        {
+        $pBest=p$
+        }
+        }
+    	$gBest=best\;p in\mathcal{P}$
+
+        \For{ each $particle p in \mathcal{P}$ }
+        {
+        	$v=v+c_1\times rand\times (pBest-p)+c_2\times rand\times (gBest-p)$
+        	$p=p+v$
+        }
+\end{algorithm}

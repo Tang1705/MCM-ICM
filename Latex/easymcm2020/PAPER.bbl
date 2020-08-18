@@ -1,0 +1,40 @@
+\begin{thebibliography}{1}
+
+\bibitem{kelleher2015fundamentals}
+J.D. Kelleher, B.M. Namee, and A.~D'Arcy.
+\newblock {\em Fundamentals of Machine Learning for Predictive Data Analytics:
+  Algorithms, Worked Examples, and Case Studies}.
+\newblock The MIT Press. MIT Press, 2015.
+
+\bibitem{baccianella-etal-2010-sentiwordnet}
+Stefano Baccianella, Andrea Esuli, and Fabrizio Sebastiani.
+\newblock {S}enti{W}ord{N}et 3.0: An enhanced lexical resource for sentiment
+  analysis and opinion mining.
+\newblock In {\em Proceedings of the Seventh International Conference on
+  Language Resources and Evaluation ({LREC}'10)}, Valletta, Malta, May 2010.
+  European Language Resources Association (ELRA).
+
+\bibitem{KorfiatisEvaluating}
+Nikolaos Korfiatis, Elena García-Bariocanal, and Salvador Sánchez-Alonso.
+\newblock Evaluating content quality and helpfulness of online product reviews:
+  The interplay of review helpfulness vs. review content.
+\newblock {\em Electronic Commerce Research \& Applications}, 11(3):205---217.
+
+\bibitem{www.amazon.com}
+amazon.
+\newblock amazon.
+\newblock Website, 2020.
+\newblock \url{https://www.amazon.com/gp/vine/help}.
+
+\bibitem{social2010}
+Timothy D.~Wilson Aronson, Elliot and Robin~M. Akert.
+\newblock {\em Social Psychology}.
+\newblock Upper Saddle River, N.J: Pearson Education, 2010.
+
+\bibitem{sentiment.nrc.ca}
+National Research~Council Canada.
+\newblock The sentiment and emotion lexicons.
+\newblock Website, 2016.
+\newblock \url{http://sentiment.nrc.ca/lexicons-for-research/}.
+
+\end{thebibliography}

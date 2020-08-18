@@ -1,0 +1,16 @@
+\begin{thebibliography}{1}
+
+\bibitem{Song2010Determining}
+Zhan Song and Chi Kit~Ronald Chung.
+\newblock Determining both surface position and orientation in
+  structured-light-based sensing.
+\newblock {\em IEEE Transactions on Pattern Analysis \& Machine Intelligence},
+  32(10):1770--1780, 2010.
+
+\bibitem{LinA}
+Haibo Lin, Lei Nie, and Zhan Song.
+\newblock A single-shot structured light means by encoding both color and
+  geometrical features.
+\newblock {\em Pattern Recognition}, 54:178--189.
+
+\end{thebibliography}

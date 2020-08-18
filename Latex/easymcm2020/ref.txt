@@ -1,0 +1,12 @@
+@inproceedings{baccianella-etal-2010-sentiwordnet,
+    title = "{S}enti{W}ord{N}et 3.0: An Enhanced Lexical Resource for Sentiment Analysis and Opinion Mining",
+    author = "Baccianella, Stefano  and
+      Esuli, Andrea  and
+      Sebastiani, Fabrizio",
+    booktitle = "Proceedings of the Seventh International Conference on Language Resources and Evaluation ({LREC}'10)",
+    month = may,
+    year = "2010",
+    address = "Valletta, Malta",
+    publisher = "European Language Resources Association (ELRA)",
+    url = "http://www.lrec-conf.org/proceedings/lrec2010/pdf/769_Paper.pdf",
+}

@@ -1,0 +1,31 @@
+\BOOKMARK [1][-]{section.0.1}{Introduction}{}% 1
+\BOOKMARK [2][-]{subsection.0.1.1}{Background}{section.0.1}% 2
+\BOOKMARK [2][-]{subsection.0.1.2}{Problem Restatement and Our Work}{section.0.1}% 3
+\BOOKMARK [1][-]{section.0.2}{Assumption and Data Exploration}{}% 4
+\BOOKMARK [2][-]{subsection.0.2.1}{Assumption}{section.0.2}% 5
+\BOOKMARK [2][-]{subsection.0.2.2}{Data Quality Report}{section.0.2}% 6
+\BOOKMARK [2][-]{subsection.0.2.3}{Review Preprocessing}{section.0.2}% 7
+\BOOKMARK [2][-]{subsection.0.2.4}{Preliminary Insights Into the Data}{section.0.2}% 8
+\BOOKMARK [1][-]{section.0.3}{PRMP Model}{}% 9
+\BOOKMARK [2][-]{subsection.0.3.1}{Review}{section.0.3}% 10
+\BOOKMARK [3][-]{subsubsection.0.3.1.1}{Sentiment}{subsection.0.3.1}% 11
+\BOOKMARK [3][-]{subsubsection.0.3.1.2}{Readability and Length}{subsection.0.3.1}% 12
+\BOOKMARK [2][-]{subsection.0.3.2}{Star Rating}{section.0.3}% 13
+\BOOKMARK [2][-]{subsection.0.3.3}{Helpfulness}{section.0.3}% 14
+\BOOKMARK [2][-]{subsection.0.3.4}{PRMP Model and Result}{section.0.3}% 15
+\BOOKMARK [1][-]{section.0.4}{Comprehensive Product Evaluation Model}{}% 16
+\BOOKMARK [2][-]{subsection.0.4.1}{Product Measurement}{section.0.4}% 17
+\BOOKMARK [3][-]{subsubsection.0.4.1.1}{Entropy Weight Method to Obtain 1 and 2}{subsection.0.4.1}% 18
+\BOOKMARK [3][-]{subsubsection.0.4.1.2}{Defining 1, 2, 3}{subsection.0.4.1}% 19
+\BOOKMARK [3][-]{subsubsection.0.4.1.3}{Scaling HVR}{subsection.0.4.1}% 20
+\BOOKMARK [2][-]{subsection.0.4.2}{Reputation Trend Model using ARIMA}{section.0.4}% 21
+\BOOKMARK [2][-]{subsection.0.4.3}{Non-linear Programming Model}{section.0.4}% 22
+\BOOKMARK [2][-]{subsection.0.4.4}{Customer Decision Model}{section.0.4}% 23
+\BOOKMARK [2][-]{subsection.0.4.5}{Correlation Between Emotional Descriptors and Star Rating}{section.0.4}% 24
+\BOOKMARK [1][-]{section.0.5}{Sensitivity Analysis}{}% 25
+\BOOKMARK [1][-]{section.0.6}{Strengths and Weaknesses}{}% 26
+\BOOKMARK [2][-]{subsection.0.6.1}{Strengths}{section.0.6}% 27
+\BOOKMARK [2][-]{subsection.0.6.2}{Weaknesses}{section.0.6}% 28
+\BOOKMARK [1][-]{section.0.7}{Letter}{}% 29
+\BOOKMARK [1][-]{section.1.7}{References}{}% 30
+\BOOKMARK [1][-]{section*.26}{Appendices}{}% 31
