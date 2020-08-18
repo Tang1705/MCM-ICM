@@ -1,0 +1,110 @@
+{\rtf1\fs24
+\trowd\trgaph75\trleft-75\intbl\trqc\clbrdrt\brdrs\cellx1872\clbrdrt\brdrs\cellx3744\clbrdrt\brdrs\cellx5616\clbrdrt\brdrs\cellx7488
+\ql \cell\qc (1)\cell\qc (2)\cell\qc (3)\cell\row
+\trowd\trgaph75\trleft-75\trqc\cellx1872\cellx3744\cellx5616\cellx7488
+\ql \cell\qc m1\cell\qc m2\cell\qc m3\cell\row
+\trowd\trgaph75\trleft-75\trqc\cellx1872\cellx3744\cellx5616\cellx7488
+\trowd\trgaph75\trleft-75\trqc\clbrdrb\brdrs\cellx1872\clbrdrb\brdrs\cellx3744\clbrdrb\brdrs\cellx5616\clbrdrb\brdrs\cellx7488
+\ql VARIABLES\cell\qc SUCCESS\cell\qc SUCCESS\cell\qc SUCCESS\cell\row
+\trowd\trgaph75\trleft-75\trqc\cellx1872\cellx3744\cellx5616\cellx7488
+\ql \cell\qc \cell\qc \cell\qc \cell\row
+\ql College\cell\qc 0.000869***\cell\qc \cell\qc \cell\row
+\ql \cell\qc (0.000168)\cell\qc \cell\qc \cell\row
+\ql INTEREST\cell\qc -0.00356***\cell\qc -0.00356***\cell\qc -0.00354***\cell\row
+\ql \cell\qc (0.000136)\cell\qc (0.000136)\cell\qc (0.000136)\cell\row
+\ql MONTHS\cell\qc -0.000821***\cell\qc -0.000813***\cell\qc -0.000817***\cell\row
+\ql \cell\qc (7.49e-05)\cell\qc (7.48e-05)\cell\qc (7.48e-05)\cell\row
+\ql HOUSE\cell\qc 0.000931\cell\qc 0.000911\cell\qc 0.000943\cell\row
+\ql \cell\qc (0.00142)\cell\qc (0.00142)\cell\qc (0.00142)\cell\row
+\ql CAR\cell\qc 0.0253***\cell\qc 0.0253***\cell\qc 0.0254***\cell\row
+\ql \cell\qc (0.00185)\cell\qc (0.00185)\cell\qc (0.00185)\cell\row
+\ql Year\cell\qc -0.0135***\cell\qc -0.00571***\cell\qc 0.00633***\cell\row
+\ql \cell\qc (0.00109)\cell\qc (0.00109)\cell\qc (0.00198)\cell\row
+\ql AGE\cell\qc 0.00204***\cell\qc 0.00204***\cell\qc 0.00203***\cell\row
+\ql \cell\qc (0.000114)\cell\qc (0.000114)\cell\qc (0.000114)\cell\row
+\ql LNAMOUNT\cell\qc -0.0139***\cell\qc -0.0141***\cell\qc -0.0139***\cell\row
+\ql \cell\qc (0.000544)\cell\qc (0.000545)\cell\qc (0.000544)\cell\row
+\ql INCOME\cell\qc 0.0386***\cell\qc 0.0388***\cell\qc 0.0388***\cell\row
+\ql \cell\qc (0.00181)\cell\qc (0.00182)\cell\qc (0.00181)\cell\row
+\ql CREDIT\cell\qc 0.504***\cell\qc 0.504***\cell\qc 0.503***\cell\row
+\ql \cell\qc (0.00539)\cell\qc (0.00539)\cell\qc (0.00539)\cell\row
+\ql WORKTIME\cell\qc 0.0211***\cell\qc 0.0212***\cell\qc 0.0212***\cell\row
+\ql \cell\qc (0.00139)\cell\qc (0.00139)\cell\qc (0.00139)\cell\row
+\ql MARRY\cell\qc 0.0103***\cell\qc 0.0104***\cell\qc 0.0103***\cell\row
+\ql \cell\qc (0.00134)\cell\qc (0.00135)\cell\qc (0.00135)\cell\row
+\ql EDUCATION\cell\qc 0.00930***\cell\qc 0.00934***\cell\qc 0.00937***\cell\row
+\ql \cell\qc (0.00167)\cell\qc (0.00167)\cell\qc (0.00167)\cell\row
+\ql A1\cell\qc -0.00861\cell\qc -0.0109*\cell\qc 0.101***\cell\row
+\ql \cell\qc (0.00587)\cell\qc (0.00640)\cell\qc (0.0131)\cell\row
+\ql A2\cell\qc 0.00823\cell\qc 0.0320***\cell\qc -0.136***\cell\row
+\ql \cell\qc (0.00670)\cell\qc (0.00632)\cell\qc (0.0210)\cell\row
+\ql A4\cell\qc -0.00949\cell\qc 0.000450\cell\qc 0.112***\cell\row
+\ql \cell\qc (0.00651)\cell\qc (0.00591)\cell\qc (0.0138)\cell\row
+\ql A5\cell\qc 0.00957\cell\qc 0.0303***\cell\qc -0.0470***\cell\row
+\ql \cell\qc (0.00754)\cell\qc (0.00646)\cell\qc (0.0116)\cell\row
+\ql A6\cell\qc -0.0848***\cell\qc 0.141***\cell\qc -0.124***\cell\row
+\ql \cell\qc (0.0186)\cell\qc (0.0295)\cell\qc (0.0170)\cell\row
+\ql A7\cell\qc -0.0125*\cell\qc -0.0321***\cell\qc 0.114***\cell\row
+\ql \cell\qc (0.00753)\cell\qc (0.00976)\cell\qc (0.0165)\cell\row
+\ql A8\cell\qc 0.0411***\cell\qc -0.0476***\cell\qc -0.0992***\cell\row
+\ql \cell\qc (0.0105)\cell\qc (0.0147)\cell\qc (0.0156)\cell\row
+\ql A9\cell\qc -0.0481***\cell\qc 0.0661***\cell\qc -0.111***\cell\row
+\ql \cell\qc (0.0149)\cell\qc (0.0107)\cell\qc (0.0178)\cell\row
+\ql A10\cell\qc -0.129***\cell\qc 0.160***\cell\qc -0.0245***\cell\row
+\ql \cell\qc (0.0287)\cell\qc (0.0318)\cell\qc (0.00691)\cell\row
+\ql A11\cell\qc -0.0295***\cell\qc 0.0229***\cell\qc -0.124***\cell\row
+\ql \cell\qc (0.00765)\cell\qc (0.00729)\cell\qc (0.0161)\cell\row
+\ql A12\cell\qc -0.125***\cell\qc 0.186***\cell\qc -0.0190***\cell\row
+\ql \cell\qc (0.0273)\cell\qc (0.0382)\cell\qc (0.00598)\cell\row
+\ql A13\cell\qc -0.0157**\cell\qc 0.0277***\cell\qc -0.127***\cell\row
+\ql \cell\qc (0.00752)\cell\qc (0.00622)\cell\qc (0.0180)\cell\row
+\ql A14\cell\qc 0.0158**\cell\qc -0.0182**\cell\qc -0.112***\cell\row
+\ql \cell\qc (0.00738)\cell\qc (0.00818)\cell\qc (0.0157)\cell\row
+\ql A15\cell\qc -0.108***\cell\qc 0.152***\cell\qc 0.0629***\cell\row
+\ql \cell\qc (0.0282)\cell\qc (0.0261)\cell\qc (0.00617)\cell\row
+\ql A16\cell\qc -0.0501***\cell\qc 0.0292***\cell\qc -0.131***\cell\row
+\ql \cell\qc (0.0115)\cell\qc (0.00784)\cell\qc (0.0175)\cell\row
+\ql A17\cell\qc -0.0796***\cell\qc 0.0941***\cell\qc -0.101***\cell\row
+\ql \cell\qc (0.0175)\cell\qc (0.0198)\cell\qc (0.0144)\cell\row
+\ql A18\cell\qc -0.110***\cell\qc 0.137***\cell\qc -0.0999***\cell\row
+\ql \cell\qc (0.0267)\cell\qc (0.0251)\cell\qc (0.0165)\cell\row
+\ql A19\cell\qc -0.0333***\cell\qc 0.133***\cell\qc 0.0309***\cell\row
+\ql \cell\qc (0.0127)\cell\qc (0.0238)\cell\qc (0.00485)\cell\row
+\ql A20\cell\qc 0.0355***\cell\qc -0.0412***\cell\qc -0.109***\cell\row
+\ql \cell\qc (0.00899)\cell\qc (0.0137)\cell\qc (0.0167)\cell\row
+\ql A21\cell\qc -0.101***\cell\qc 0.0473***\cell\qc -0.0843***\cell\row
+\ql \cell\qc (0.0219)\cell\qc (0.00970)\cell\qc (0.0126)\cell\row
+\ql A22\cell\qc -0.0718***\cell\qc 0.0747***\cell\qc -0.109***\cell\row
+\ql \cell\qc (0.0159)\cell\qc (0.0157)\cell\qc (0.0152)\cell\row
+\ql A23\cell\qc 0.0161**\cell\qc 0.0167**\cell\qc -0.142***\cell\row
+\ql \cell\qc (0.00791)\cell\qc (0.00793)\cell\qc (0.0219)\cell\row
+\ql A24\cell\qc -0.0239***\cell\qc 0.0273***\cell\qc -0.0252***\cell\row
+\ql \cell\qc (0.00829)\cell\qc (0.00585)\cell\qc (0.00647)\cell\row
+\ql A25\cell\qc 0.0492***\cell\qc -0.0554***\cell\qc -0.148***\cell\row
+\ql \cell\qc (0.0118)\cell\qc (0.0165)\cell\qc (0.0212)\cell\row
+\ql A26\cell\qc 0.0251***\cell\qc 0.0228***\cell\qc -0.142***\cell\row
+\ql \cell\qc (0.00584)\cell\qc (0.00587)\cell\qc (0.0216)\cell\row
+\ql A27\cell\qc -0.0547***\cell\qc 0.0671***\cell\qc -0.0182***\cell\row
+\ql \cell\qc (0.0128)\cell\qc (0.0142)\cell\qc (0.00588)\cell\row
+\ql A28\cell\qc 0.0282***\cell\qc 0.00866\cell\qc -0.0918***\cell\row
+\ql \cell\qc (0.00770)\cell\qc (0.00571)\cell\qc (0.0126)\cell\row
+\ql A29\cell\qc -0.0495***\cell\qc 0.0503***\cell\qc -0.0721***\cell\row
+\ql \cell\qc (0.0151)\cell\qc (0.00847)\cell\qc (0.0130)\cell\row
+\ql A30\cell\qc 0.0530***\cell\qc -0.0423**\cell\qc -0.102***\cell\row
+\ql \cell\qc (0.0149)\cell\qc (0.0180)\cell\qc (0.0194)\cell\row
+\ql A31\cell\qc -0.0308***\cell\qc 0.0303***\cell\qc -0.108***\cell\row
+\ql \cell\qc (0.00870)\cell\qc (0.00784)\cell\qc (0.0150)\cell\row
+\ql Finance\cell\qc \cell\qc -1.54e-05***\cell\qc \cell\row
+\ql \cell\qc \cell\qc (3.37e-06)\cell\qc \cell\row
+\ql PerGDP\cell\qc \cell\qc \cell\qc -3.80e-06***\cell\row
+\ql \cell\qc \cell\qc \cell\qc (4.69e-07)\cell\row
+\ql Constant\cell\qc 27.24***\cell\qc 11.69***\cell\qc -12.36***\cell\row
+\ql \cell\qc (2.182)\cell\qc (2.189)\cell\qc (3.954)\cell\row
+\ql \cell\qc \cell\qc \cell\qc \cell\row
+\ql Observations\cell\qc 128,532\cell\qc 128,532\cell\qc 128,532\cell\row
+\trowd\trgaph75\trleft-75\trqc\trbrdrb\brdrs\clbrdrb\brdrs\cellx1872\clbrdrb\brdrs\cellx3744\clbrdrb\brdrs\cellx5616\clbrdrb\brdrs\cellx7488
+\ql R-squared\cell\qc 0.334\cell\qc 0.334\cell\qc 0.334\cell\row
+\pard\qc
+Robust standard errors in parentheses\par
+*** p<0.01, ** p<0.05, * p<0.1\par
+}
